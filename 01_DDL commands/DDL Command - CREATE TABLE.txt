@@ -1,6 +1,4 @@
 
-SOLUTION:-
-
 CREATE TABLE student (
   rollNo INT,
   studentName VARCHAR(50),
