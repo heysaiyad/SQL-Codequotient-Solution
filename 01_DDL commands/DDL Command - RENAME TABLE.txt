@@ -1,6 +1,4 @@
 
-SOLUTION:-
-
 /*CREATE TABLE student (
 );
 Table is already created
