@@ -1,0 +1,14 @@
+/*
+create table stud_marks(
+	stud_roll INTEGER PRIMARY KEY,
+    marks INTEGER
+);
+create table students(
+	roll_no INTEGER PRIMARY KEY,
+    name VARCHAR(50)
+);
+Tables are already created
+*/
+/*Display all the data of students irrespective of the fact that their names are present or not in the 'students' table
+  Tables 'students' and 'stud_marks' already created */
+  select * from students left outer join stud_marks on students.roll_no=stud_marks.stud_roll;

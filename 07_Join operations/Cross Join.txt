@@ -1,0 +1,12 @@
+/*
+create table stud_marks(
+	stud_roll INTEGER PRIMARY KEY,
+    marks INTEGER
+);
+create table students(
+	roll_no INTEGER PRIMARY KEY,
+    name VARCHAR(50)
+);
+Tables are already created
+*/
+select * from students cross join stud_marks;

@@ -1,0 +1,3 @@
+/*Display all the data of students irrespective of the fact that their names are present or not in the 'students' table
+  Tables 'students' and 'stud_marks' already created */
+  select * from students right outer join student_marks on students.roll_no=student_marks.stud_roll;
