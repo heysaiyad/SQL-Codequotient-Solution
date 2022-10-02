@@ -1,0 +1,3 @@
+/* Fetch "FirstName" From Worker Table In Upper Case.
+ Table 'Worker' is already created */
+ select UPPER(FirstName) from worker;

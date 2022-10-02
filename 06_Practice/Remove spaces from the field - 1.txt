@@ -1,0 +1,3 @@
+/*To Print The FirstName From Worker Table After Removing White Spaces From The Left Side.
+Table 'Worker' is already created */
+select LTRIM(FirstName          ) from worker;
