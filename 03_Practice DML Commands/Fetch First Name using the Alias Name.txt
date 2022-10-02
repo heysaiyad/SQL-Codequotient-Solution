@@ -1,0 +1,3 @@
+/* Fetch "FirstName" from worker table using the Alias name as "FName".
+  Table 'Worker' already created. */
+  SELECT FirstName AS FName from Worker;

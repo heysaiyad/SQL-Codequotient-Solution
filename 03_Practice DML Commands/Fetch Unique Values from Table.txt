@@ -1,0 +1,3 @@
+/* Fetch unique values of Department from Worker table.
+ Table 'Worker' is already created. */
+ SELECT DISTINCT department FROM worker;

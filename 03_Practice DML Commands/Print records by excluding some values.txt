@@ -1,0 +1,1 @@
+SELECT * From Worker WHERE FirstName NOT IN ('Lahsiv','Amitabh');
