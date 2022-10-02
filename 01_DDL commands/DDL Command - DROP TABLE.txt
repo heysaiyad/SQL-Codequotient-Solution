@@ -1,4 +1,3 @@
-SOLUTION:-
 
 /*CREATE TABLE student (
 );
