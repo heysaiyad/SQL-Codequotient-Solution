@@ -1,0 +1,2 @@
+/* Delete the index 'stud_index' from the database */
+DROP INDEX stud_index;
