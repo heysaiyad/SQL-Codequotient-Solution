@@ -1,0 +1,8 @@
+
+SOLUTION:-
+
+/*CREATE TABLE student (
+);
+Table is already created
+*/
+ALTER TABLE student RENAME TO student_data;

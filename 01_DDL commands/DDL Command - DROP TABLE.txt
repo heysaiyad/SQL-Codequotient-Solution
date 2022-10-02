@@ -1,0 +1,7 @@
+SOLUTION:-
+
+/*CREATE TABLE student (
+);
+Table is already created
+*/
+DROP TABLE IF EXISTS student;

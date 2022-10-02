@@ -1,0 +1,8 @@
+
+SOLUTION:-
+
+/* Perform the given tasks 
+ Table 'students' already created*/
+ ALTER TABLE students RENAME COLUMN phone to contact;
+ ALTER TABLE students MODIFY stud_name VARCHAR(30);
+ ALTER TABLE students DROP COLUMN marks;

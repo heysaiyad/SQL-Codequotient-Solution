@@ -1,0 +1,9 @@
+
+SOLUTION:-
+
+/*CREATE TABLE student (
+   rollNo INT,
+);
+Table is already created
+*/
+ALTER TABLE student ADD gender VARCHAR(1);

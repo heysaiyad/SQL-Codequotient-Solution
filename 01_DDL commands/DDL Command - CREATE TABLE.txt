@@ -1,0 +1,10 @@
+
+SOLUTION:-
+
+CREATE TABLE student (
+  rollNo INT,
+  studentName VARCHAR(50),
+  branch VARCHAR(10),
+  semester INT
+);
+SELECT * FROM student;
