@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS student (
+   rollNo INT PRIMARY KEY,
+    studentName VARCHAR(50),
+    branch VARCHAR(10),
+    semester INT
+);
+Table is already created
+
+select studentName from student;
+select branch, rollNo from student;
+select  from student;

@@ -1,0 +1,64 @@
+DML Command - INSERT star_border
+When inserting data into a database, we need to use an INSERT statement, which declares which table to write into, the columns of data that we are filling, and one or more rows of data to insert. In general, each row of data you insert should contain values for every corresponding column in the table. You can insert multiple rows at a time by just listing them sequentially.
+
+/*Insert statement with values for all columns*/
+INSERT INTO table_name VALUES(value1,value2,..valueN);
+Here's an example to insert in the employee table
+
+CREATE TABLE employee (
+    empId INT ,
+    empName VARCHAR(50),
+    joining DATE,
+    salary INT);
+/* Insert single row*/
+INSERT INTO employee VALUES (1,"David",'14-09-18',12000);
+/*Insert multiple rows*/
+INSERT INTO employee VALUES (2,"Burns",'14-09-16',14000),
+(3,"Rohit",'14-06-20',10000);
+In some cases, if you have incomplete data and the table contains columns that support default values, you can insert rows with only the columns of data you have by specifying them explicitly.
+
+/*Insert statement with specific columns*/
+INSERT INTO mytable
+(column, another_column, …)
+VALUES (value_or_expr, another_value_or_expr, …),
+      (value_or_expr_2, another_value_or_expr_2, …),
+      …;
+Insert only id & name of the employee
+
+INSERT INTO employee 
+    (empId , empName) 
+    VALUES
+    (4,"Rohit"),
+    (5,"David");
+
+
+Refer the below schema & complete the following task.
+
+CREATE TABLE IF NOT EXISTS student (
+   rollNo INT,
+  studentName VARCHAR(50),
+  branch VARCHAR(10),
+  semester INT
+);
+
+
+Task1.: Insert the following data in the predefined student table.
+**********************************************************************************************************************************************************************************************
+
+SOLUTION:-
+
+/*CREATE TABLE IF NOT EXISTS student (
+   	rollNo INT PRIMARY KEY,
+    studentName VARCHAR(50),
+    branch VARCHAR(10),
+    semester INT
+);
+Table is already created
+*/
+INSERT INTO student values(111, 'Ashmit', 'CSE', 4);
+INSERT INTO student values(124, 'Paras','ECE', 6);
+INSERT INTO student values(547, 'Ravi', 'CSE', NULL);
+INSERT INTO student values(654, 'Sumit', 'CSE', NULL);
+
+
+

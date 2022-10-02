@@ -1,0 +1,13 @@
+/*CREATE TABLE IF NOT EXISTS student (
+   rollNo INT PRIMARY KEY,
+    studentName VARCHAR(50),
+    branch VARCHAR(10),
+    semester INT
+);
+Table is already created
+*/
+SELECT * from student WHERE studentName is 'Ashmit';
+SELECT * FROM student WHERE studentName != 'Ravi';
+SELECT * FROM student WHERE branch = 'CSE';
+SELECT rollNo from student WHERE rollNo>653;
+SELECT rollNo FROM student WHERE rollNo<654;

@@ -1,0 +1,9 @@
+/*CREATE TABLE IF NOT EXISTS student (
+   rollNo INT,
+  studentName VARCHAR(50),
+  branch VARCHAR(10),
+  semester INT,
+  marks INT
+);
+Table is already created */
+SELECT * FROM student WHERE studentName LIKE "%it";

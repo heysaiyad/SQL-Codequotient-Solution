@@ -1,0 +1,11 @@
+/*CREATE TABLE IF NOT EXISTS student (
+   rollNo INT,
+  studentName VARCHAR(50),
+  branch VARCHAR(10),
+  semester INT,
+  marks INT
+);
+Table is already created */
+SELECT rollNo, studentName FROM student WHERE semester = 4 AND marks>75;
+SELECT rollNo, studentName FROM student WHERE branch = 'ECE' OR semester = 6;
+SELECT rollNo FROM student WHERE branch = 'CSE' OR marks<40;

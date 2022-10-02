@@ -1,0 +1,10 @@
+/*CREATE TABLE IF NOT EXISTS student (
+   rollNo INT PRIMARY KEY,
+    studentName VARCHAR(50),
+    branch VARCHAR(10),
+    semester INT
+);
+Table is already created
+*/
+DELETE FROM student WHERE branch = 'ECE';
+DELETE FROM student WHERE semester is NULL;
