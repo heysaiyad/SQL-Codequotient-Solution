@@ -1,0 +1,2 @@
+/* Rename the already created 'stud_view' to 'student_view' */
+RENAME TABLE stud_view TO student_view;

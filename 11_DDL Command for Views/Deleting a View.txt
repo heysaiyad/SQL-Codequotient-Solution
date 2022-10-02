@@ -1,0 +1,2 @@
+/* Delete the view named 'student_view' */
+DROP VIEW student_view;

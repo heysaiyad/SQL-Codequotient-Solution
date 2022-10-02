@@ -1,0 +1,3 @@
+/* Create a view 'student_view' according to the given task 
+ Table students already created*/
+ CREATE OR REPLACE VIEW student_view AS SELECT roll_no as id,marks FROM students WHERE marks > 75;

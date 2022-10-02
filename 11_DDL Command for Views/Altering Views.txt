@@ -1,0 +1,2 @@
+/* Alter the view as specified */
+ALTER VIEW student_view AS SELECT roll_no AS id, stud_name AS name, marks from students where marks > 50;
