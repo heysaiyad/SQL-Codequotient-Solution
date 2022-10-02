@@ -1,0 +1,22 @@
+/*
+create table students(
+  roll_no INTEGER PRIMARY KEY,
+  stud_name VARCHAR(50),
+  marks INT);
+create table stud_logs(
+  roll_no INTEGER,
+  status VARCHAR(15));
+Tables already created
+*/
+CREATE TRIGGER stud_update
+ AFTER UPDATE
+ ON students
+BEGIN
+   insert into stud_logs values(OLD.roll_no, 'updated');
+END;
+CREATE TRIGGER stud_delete
+ AFTER DELETE
+ ON students
+BEGIN
+   insert into stud_logs values(OLD.roll_no,'deleted') ;
+END;

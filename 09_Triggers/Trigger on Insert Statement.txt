@@ -1,0 +1,17 @@
+/*
+create table students(
+  roll_no INTEGER PRIMARY KEY,
+  stud_name VARCHAR(50),
+  sub1_marks INT,
+  sub2_marks INT,
+  sub3_marks INT,
+  total_marks INT
+ );
+Table already created
+*/
+CREATE TRIGGER calc_marks
+ AFTER INSERT
+ ON students
+BEGIN
+  update students set total_marks = NEW.sub1_marks + NEW.sub2_marks + NEW.sub3_marks  where roll_no=NEW.roll_no;
+END;
