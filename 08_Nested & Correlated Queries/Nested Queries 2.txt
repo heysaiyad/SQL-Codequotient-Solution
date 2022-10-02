@@ -1,0 +1,20 @@
+/*
+create table students(
+	roll_no INTEGER PRIMARY KEY,
+  	stud_name VARCHAR(50),
+  	marks INT,
+    class_id INTEGER
+ );
+create table class(
+	class_id INTEGER PRIMARY KEY,
+  	teacher_id INTEGER,
+  	no_of_students INTEGER
+);
+create table teacher(
+  	teacher_id INTEGER PRIMARY KEY,
+  	teacher_name varchar(50),
+  	class_id INTEGER
+);
+Tables already created
+*/
+select stud_name from students where class_id IN(select class_id from class where no_of_students>30);

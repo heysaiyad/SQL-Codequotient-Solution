@@ -1,0 +1,10 @@
+/*
+create table students(
+    roll_no INTEGER PRIMARY KEY,
+    stud_name VARCHAR(50),
+    stud_age integer,
+    stud_dept integer,
+    stud_marks INTEGER);
+Table already created
+*/
+select * from students as std where stud_marks = (select MAX(stud_marks) from students where stud_dept = std.stud_dept);
