@@ -1,0 +1,10 @@
+/*create table students (
+  roll_no INTEGER PRIMARY KEY,
+  stud_name varchar(50),
+  stud_age int,
+  stud_dept varchar(50),
+  stud_marks INT
+);
+Table already created.
+*/
+select COUNT(*) from students Where stud_marks>50;

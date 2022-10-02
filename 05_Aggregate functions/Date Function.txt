@@ -1,0 +1,5 @@
+/* Perform the given tasks using appropriate date functions 
+  Table 'students' already created*/
+  select MONTH(birthdate) AS MonthNumber from students;
+  select DAYNAME(birthdate) AS Name from students;
+  select DATEDIFF("2021-03-11", birthdate) AS DateDifference from students;

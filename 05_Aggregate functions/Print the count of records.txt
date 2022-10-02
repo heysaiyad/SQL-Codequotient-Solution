@@ -1,0 +1,3 @@
+/*Fetch the count of employees working in the department 'Admin'.
+Table 'Worker' is already created*/
+select COUNT(*) from worker where department= 'Admin';

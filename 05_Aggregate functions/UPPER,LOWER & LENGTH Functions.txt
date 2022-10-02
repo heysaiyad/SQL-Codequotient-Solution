@@ -1,0 +1,14 @@
+/*
+create table students (
+  	roll_no INTEGER PRIMARY KEY,
+  	stud_fname varchar(50),
+  	stud_lname varchar(50),
+    stud_full_name varchar(50),
+    stud_age int,
+    stud_dept varchar(50)
+);
+Table already created.
+*/
+select UPPER(stud_fname) from students;
+select Lower(stud_lname) from students;
+select LENGTH(stud_full_name) from students;

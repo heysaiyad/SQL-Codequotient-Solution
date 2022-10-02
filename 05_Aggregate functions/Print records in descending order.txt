@@ -1,0 +1,4 @@
+/*Print all worker details from the worker table in descending order of their FirstName 
+ Table 'Worker' is already created */
+ SELECT * FROM worker
+ORDER BY FirstName DESC;

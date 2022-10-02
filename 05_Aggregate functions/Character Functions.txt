@@ -1,0 +1,5 @@
+/* Perform the given tasks using appropriate character functions 
+  Table 'students' already created */
+  select CONCAT(fname,' ',lname) AS FullName from students;
+  select REPLACE(fname, "a", "i") AS UpdatedFirstName from students;
+  select SUBSTR(fname,1, 5) AS Initials from students;

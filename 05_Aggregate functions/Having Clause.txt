@@ -1,0 +1,9 @@
+/*create table students (
+  roll_no INTEGER PRIMARY KEY,
+  stud_name varchar(50),
+  stud_age int,
+  stud_dept varchar(50)
+);
+Table already created.
+*/
+select stud_Dept,COUNT(roll_no) from students group by stud_dept having stud_dept IN('CSE', 'Mechanical');

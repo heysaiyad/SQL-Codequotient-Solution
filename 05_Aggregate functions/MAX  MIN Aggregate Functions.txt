@@ -1,0 +1,10 @@
+/*create table students (
+  roll_no INTEGER PRIMARY KEY,
+  stud_name varchar(50),
+  stud_age int,
+  stud_dept varchar(50),
+  stud_marks INT
+);
+Table already created.
+*/
+select MAX(stud_marks),MIN(stud_marks) from students;
