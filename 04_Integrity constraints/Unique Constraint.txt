@@ -1,0 +1,2 @@
+/* create your table students*/
+CREATE TABLE students(Id integer UNIQUE,Name VARCHAR(50), age int);

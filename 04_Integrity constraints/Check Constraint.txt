@@ -1,0 +1,2 @@
+/* create your table students*/
+CREATE TABLE students(id INT,Name VARCHAR(50) ,age INT CHECK (age > 15));
